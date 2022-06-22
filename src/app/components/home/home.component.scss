@@ -1,0 +1,22 @@
+div {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  margin: 3rem 2rem;
+
+  img {
+    width: 500px;
+    border: 2px solid dodgerblue;
+    border-radius: 6px;
+  }
+
+  p {
+    align-self: flex-start;
+    padding-top: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: rgba(0, 0, 0, 0.8);
+  }
+}

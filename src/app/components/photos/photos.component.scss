@@ -1,0 +1,40 @@
+:host {
+  display: block;
+  padding: 2rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  justify-items: start;
+  gap: 1rem;
+
+  li {
+    width: 300px;
+
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    border: 2px solid dodgerblue;
+    border-radius: 8px;
+    background-color: #fff;
+
+    img {
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+    }
+
+    p {
+      border-radius: 8px;
+      max-width: 300px;
+      padding-top: 1rem;
+      line-height: 1.5rem;
+      align-self: flex-start;
+    }
+  }
+}
