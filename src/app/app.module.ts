@@ -9,7 +9,7 @@ import { UsersComponent } from './components/users/users.component';
 import { PhotosComponent } from './components/photos/photos.component';
 @NgModule({
   declarations: [AppComponent, HomeComponent, UsersComponent, PhotosComponent],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  imports: [BrowserModule.withServerTransition({ appId: 'serverApp' }), AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })
